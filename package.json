@@ -1,0 +1,22 @@
+{
+  "name": "friendbobtradescam",
+  "version": "1.3.37",
+  "description": "696969",
+  "main": "morescams.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rock",
+  "license": "ISC",
+  "dependencies": {
+    "ajax-request": "^1.2.1",
+    "angular": "^1.5.7",
+    "angular-material": "^1.1.0-rc.5",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.0",
+    "najax": "^0.7.1",
+    "passport": "^0.3.2",
+    "passport-steam": "^1.0.4"
+  }
+}

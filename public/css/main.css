@@ -1,0 +1,119 @@
+.inventory {
+	outline: solid 1px grey;
+	height: 300px;
+	overflow: auto;
+	text-align: center;
+}
+
+.trade-box {
+	outline: solid 1px grey;
+	height: 200px;
+	overflow: auto;
+	text-align: center;
+}
+
+.grey.darken-35 {
+	background-color: #303030 !important;
+}
+
+.trade-info {
+	height: 193px;
+}
+
+.rules-list {
+	text-align: right;
+}
+
+body {
+	color: white;
+}
+
+.how-much-more-needed {
+	line-height: 120%;
+	text-align: center;
+	font-size: 1.75em;
+	/*outline: solid darkgrey 1px;*/
+	margin-top: 7.5px;
+	padding: 5px;
+}
+
+.trade-btn {
+	width: 100%;
+	font-size: 1.5em;
+}
+
+.case-item {
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+	margin-left: 7.5px;
+	margin-right: 7.5px;
+	width: 120px;
+	height: 120px;
+	position: relative;
+	display:inline-block;
+	text-align: left;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+21,686868+100 */
+	background: rgb(245,245,245); /* Old browsers */
+	background: -moz-radial-gradient(bottom, circle,	rgba(245,245,245,1) 20%, rgba(100,100,100,1) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(bottom, circle,	rgba(245,245,245,1) 20%,rgba(100,100,100,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(circle at bottom,	rgba(245,245,245,1) 20%,rgba(100,100,100,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	cursor: pointer;
+}
+
+.case-item-shadow {
+	position: absolute;
+	left: 25px;
+	bottom: 4px;
+	border-radius: 15%;
+	width: 70px;
+	height: 70px;
+	background: black;
+	opacity: 0.25;
+	-webkit-filter: blur(20px);
+	-moz-filter: blur(20px);
+	filter: blur(20px);
+	-ms-filter: blur(20px);
+	transform: scale(1, 0.1);
+}
+
+.case-item-icon {
+	left: 0;
+	right: 0;
+	position: absolute;
+	font-size:145px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.case-item-value {
+	font-size: 10px;
+	position:absolute;
+	text-shadow: 1px 1px 5px rgba(25, 25, 25, 1);
+	top: 3px; 
+	right: 5px;
+}
+
+.case-item-name {
+	width:120px;
+	font-size: 10px;
+	position:absolute;
+	bottom: 0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	text-shadow: 1px 1px 5px rgba(25, 25, 25, 1);
+	padding-left: 7px;
+	padding-right:7px;
+	height: 28px;
+	overflow: hidden;
+	line-height: 125%;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
